@@ -23,8 +23,6 @@ The implementation includes:
 - Combined CSV output for batching multiple statements into one accountant import file.
 - Raw OCR text and unmatched-line files for parser tuning and accountant review.
 
-The source I inspected implements CSV exports. I did not find XLSX export generation in the current source or pilot release documentation, so this case study does not claim XLSX output.
-
 ## Desktop Workflow and Managed Folders
 
 The desktop pilot is designed as a local-first Windows utility. On first run it creates managed application folders under:
